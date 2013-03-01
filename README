@@ -1,0 +1,16 @@
+Folder Contents:
+
+* tutorial-3-native
+	- the src code of the android part
+	- modified the sample project of	
+		Opencv-android
+	- object tracking
+	- object training 
+	- TODO
+		add speech recognition
+		add Bluetooth comm
+		add more features in obj recog
+
+* update
+	- copies the original eclipse project 
+		into this dir
