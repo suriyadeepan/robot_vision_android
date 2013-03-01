@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_train"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <SeekBar
+        android:id="@+id/sb_max"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginRight="20dp" />
+
+    <SeekBar
+        android:id="@+id/sb_min"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sb_max"
+        android:layout_alignLeft="@+id/sb_max"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/bt_hsv_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/sb_min"
+        android:layout_marginLeft="19dp"
+        android:text="@string/bt_hsv_switch" />
+
+    <TextView
+        android:id="@+id/tv_hsv_status"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/bt_hsv_switch"
+        android:layout_below="@+id/bt_hsv_switch"
+        android:layout_marginLeft="16dp"
+        android:text="@string/tv_hsv"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

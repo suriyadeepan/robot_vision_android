@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/m_export" android:title="@string/menu_item_export"></item>
+    <item android:id="@+id/m_load_image" android:title="@string/menu_item_chg_image"></item>
+    
+
+</menu>
