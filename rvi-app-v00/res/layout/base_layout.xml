@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_trainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="72dp"
+        android:text="@string/menu_item_hsv_trainer" />
+
+    <Button
+        android:id="@+id/btn_get_coordinates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_trainer"
+        android:layout_marginTop="30dp"
+        android:text="@string/get_coordinates" />
+
+    <TextView
+        android:id="@+id/tv_coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_get_coordinates"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/coordinates_00"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btn_bt_search_dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_coordinates"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/tv_coordinates"
+        android:text="@string/searchdevice" />
+
+    <Button
+        android:id="@+id/btn_start_bt_service2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_bt_search_dev"
+        android:layout_alignBottom="@+id/btn_bt_search_dev"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:text="@string/start_bt_service" />
+
+    <CheckBox
+        android:id="@+id/cb_turbo_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_bt_search_dev"
+        android:layout_marginTop="63dp"
+        android:layout_toRightOf="@+id/btn_start_bt_service2"
+        android:text="@string/turbo_mode" />
+
+    <Button
+        android:id="@+id/btn_send_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_start_bt_service2"
+        android:layout_below="@+id/cb_turbo_mode"
+        android:layout_marginTop="16dp"
+        android:text="@string/send" />
+
+</RelativeLayout>

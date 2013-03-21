@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OCV T3 Add Native OpenCV</string>
+    <string name="tv_hsv">H</string>
+    <string name="bt_hsv_switch">Switch</string>
+    <string name="menu_item_hsv_trainer">HSV Trainer</string>
+    <string name="menu_item_exit">Exit</string>
+    <string name="menu_item_export">Export</string>
+    <string name="menu_item_chg_image">Load Image</string>
+    <string name="get_coordinates">Get Coordinates</string>
+    <string name="coordinates_00">(0,0)</string>
+    <string name="hsv_status">HSV Status goes here</string>
+    <string-array name="language">
+		<item>English</item>
+		<item>Chinese</item>
+	</string-array>
+	
+    
+    	<string name="hello">Hello World, MainActivity!</string>
+	
+	<string name="setting">Setting</string>
+	<string name="searchdevice">Search Device</string>
+	<string name="monitor">Monitor</string>
+	<string name="about">About</string>
+	<string name="exit">Exit</string>
+	<string name="uri">http://www.iteadstudio.com</string>
+	<string name="message">Are you sure?</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	
+	<string name="open">Open Bluetooth</string>
+	<string name="close">Close Bluetooch</string>
+	<string name="allowdiscoverable">Allow Discoverable</string>
+	<string name="bluetoothmessage">Your bluetooch device is disable, please make it
+		enable first.</string>
+	<string name="strreturn">Return</string>
+	<string name="scaning">Scaning</string>
+	<string name="nodevice">There isn\'t bluetooch devices!</string>
+	<string name="send">Send</string>
+	<string name="clear">Clear</string>
+	<string name="hexview">View as Hex</string>
+	<string name="hexsend">Send as Hex</string>
+	<string name="selectonedevice">select device to connect</string>
+	<string name="version">version:1.0.1</string>
+	
+	<string name="about_us">About us</string>
+	
+	<string name="ioexception">Connect failed!</string>
+	<string name="wait">Wait to connect the device</string>
+	<string name="number">Please input the valid hex character.
+		ex:\'0-9\',\'A-F\',\'a-f\'.</string>
+<string name="newline">Send as New Line</string>
+<string name="fwd">Forward</string>
+<string name="bwd">Back</string>
+<string name="left">Left</string>
+<string name="right">Right</string>
+<string name="tv_voice_status">Status of Voice Recog</string>
+<string name="bt_base">BT BASE</string>
+<string name="start_bt_service">Start Service</string>
+<string name="turbo_mode">Turbo Mode</string>
+<string name="hue">Hue</string>
+<string name="sat">Sat</string>
+<string name="val">Val</string>
+    
+    
+</resources>

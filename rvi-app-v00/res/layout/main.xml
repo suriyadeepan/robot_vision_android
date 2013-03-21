@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    
+     >
+
+    <!--
+     	<ImageView android:id="@+id/logo" android:src="@drawable/logo"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="50dip" android:background="@drawable/bgcolor">
+	</ImageView>
+	<Button android:id="@+id/btnSetting" android:text="@string/setting"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dip"></Button>
+    -->
+    <!--
+    <Button android:id="@+id/btnAbout" android:text="@string/about"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textSize="20dip"></Button>
+
+	
+	<Button
+	    android:id="@+id/btnExit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/btnSearchDevice"
+	    android:layout_marginTop="69dp"
+	    android:text="@string/exit"
+	    android:textSize="20dip" />
+    -->
+
+    <Button
+        android:id="@+id/btnSearchDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="156dp"
+        android:text="Search Device"
+         />
+
+    <Button
+        android:id="@+id/btnMonitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSearchDevice"
+        android:layout_alignBottom="@+id/btnSearchDevice"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="41dp"
+        android:text="Monitor" />
+
+    <Button
+        android:id="@+id/btn_bt_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnMonitor"
+        android:layout_centerVertical="true"
+        android:text="@string/start_bt_service" />
+
+    <Button
+        android:id="@+id/btn_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_bt_service"
+        android:layout_alignBottom="@+id/btn_bt_service"
+        android:layout_alignLeft="@+id/btnSearchDevice"
+        android:text="Voice" />
+
+</RelativeLayout> 
